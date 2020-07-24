@@ -1,6 +1,6 @@
 {
-  "name": "silanka-frame-print",
-  "version": "1.0.2",
+  "name": "frame-logger",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
