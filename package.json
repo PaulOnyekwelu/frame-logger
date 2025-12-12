@@ -8,7 +8,12 @@
     "src"
   ],
   "scripts": {
-    "test": "node -e \"console.log('No tests yet (Phase 5).')\""
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "test:update": "cross-env UPDATE_SNAPSHOTS=1 node --test"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
 }
