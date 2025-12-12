@@ -1,15 +1,15 @@
 {
   "name": "frame-logger",
-  "version": "2.0.0",
-  "description": "Lightweight framing utilities for console output (multi-line, configurable styles).",
+  "version": "2.4.0",
+  "description": "Lightweight framing and logging utilities for Node.js and CI pipelines.",
   "main": "index.js",
   "files": [
     "index.js",
     "src"
   ],
   "scripts": {
-    "test": "node --test",
-    "test:watch": "node --test --watch",
+    "test": "cross-env node --test",
+    "test:watch": "cross-env node --test --watch",
     "test:update": "cross-env UPDATE_SNAPSHOTS=1 node --test"
   },
   "license": "ISC",
