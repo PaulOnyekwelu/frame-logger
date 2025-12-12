@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  test:
+  validate-testing:
     runs-on: ubuntu-latest
     strategy:
       matrix:
