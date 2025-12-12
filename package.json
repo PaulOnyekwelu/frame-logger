@@ -1,0 +1,14 @@
+{
+  "name": "frame-logger",
+  "version": "2.0.0",
+  "description": "Lightweight framing utilities for console output (multi-line, configurable styles).",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "node -e \"console.log('No tests yet (Phase 5).')\""
+  },
+  "license": "ISC"
+}
